@@ -1987,7 +1987,7 @@ Corner=UDim.new(0.5,0)
 
 local aM=E("Frame",aK,{
 Size=UDim2.new(0,6,0,12),
-BackgroundColor3=Color3.fromRGB(220,220,220),
+BackgroundColor3=Color3.fromRGB(255,35,190),
 Position=UDim2.fromScale(0,0.5),
 AnchorPoint=Vector2.new(0.5,0.5),
 BackgroundTransparency=0.2,
@@ -2172,7 +2172,7 @@ BackgroundTransparency=1
 local aI=E("TextLabel",aF,{
 Position=UDim2.fromOffset(5,0),
 Size=UDim2.new(1,0,0,15),
-TextColor3=Color3.fromRGB(40,150,255),
+TextColor3=Color3.fromRGB(255,20,180),
 TextXAlignment=Enum.TextXAlignment.Left,
 BackgroundTransparency=1,
 TextSize=9,
@@ -3828,6 +3828,7 @@ end
 
 local ak=E("Frame","Window",I,{
 Position=UDim2.new(0.5,-ah.X.Offset/2,0.5,-ah.Y.Offset/2),
+BackgroundColor3=Color3.fromRGB(7,0,10),
 Active=true,
 Size=ah,
 ThemeTag={
